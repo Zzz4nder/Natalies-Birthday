@@ -2,15 +2,21 @@ body {
   background: rgb(253, 203, 239);
   margin: 0;
   padding: 0;
+  font-family: "Comic Sans MS";
 }
 header {
   background: rgb(253, 167, 229);
+  position: relative;
+  text-align: center;
 }
 h1 {
   color: blueviolet;
-  margin: 0;
-  padding: 15px;
-  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
 }
 img {
   max-width: 50%;
@@ -23,7 +29,9 @@ img {
   align-items: center;
 }
 
-section.image {
+.image {
   color: blueviolet;
-  box-shadow: inset;
+}
+.info {
+  margin-left: 20px;
 }
