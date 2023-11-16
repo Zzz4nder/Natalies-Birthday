@@ -10,12 +10,20 @@ h1 {
   color: blueviolet;
   margin: 0;
   padding: 15px;
+  text-align: center;
 }
 img {
+  max-width: 50%;
+  height: auto;
+}
+.banner {
   max-width: 100%;
   height: auto;
+  margin: 0px;
+  align-items: center;
 }
 
 section.image {
-  color: blue;
+  color: blueviolet;
+  box-shadow: inset;
 }
