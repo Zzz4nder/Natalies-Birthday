@@ -1,0 +1,21 @@
+body {
+  background: rgb(253, 203, 239);
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: rgb(253, 167, 229);
+}
+h1 {
+  color: blueviolet;
+  margin: 0;
+  padding: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section.image {
+  color: blue;
+}
